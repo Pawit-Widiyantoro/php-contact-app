@@ -54,6 +54,7 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" autofocus>
                 <button class="btn btn-outline-dark" type="submit">Search</button>
             </form>
+            <a href="logout.php" class="text-decoration-none text-black ps-3">Logout</a>
             </div>
         </div>
     </nav>

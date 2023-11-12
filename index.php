@@ -38,14 +38,12 @@ if (isset($_POST['cari'])){
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
-                <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-                </li> -->
             </ul>
             <form class="d-flex" role="search" method="post">
                 <input name="keyword" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" autofocus>
                 <button class="btn btn-outline-dark" type="submit" name="cari">Search</button>
             </form>
+            <a href="logout.php" class="text-decoration-none text-black ps-3">Logout</a>
             </div>
         </div>
     </nav>
