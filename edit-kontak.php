@@ -1,5 +1,11 @@
 <?php
 
+    // if user have not login, then throw user to login.php
+    if(!isset($_SESSION['login'])){
+        header('Location: login.php');
+        exit;
+    }
+    
     require 'functions.php';
     $id = $_GET['id'];
     $kontak = query("SELECT * FROM kontak WHERE id = '$id'")[0];

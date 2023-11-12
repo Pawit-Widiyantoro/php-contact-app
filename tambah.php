@@ -1,4 +1,10 @@
 <?php
+
+    // if user have not login, then throw user to login.php
+    if(!isset($_SESSION['login'])){
+        header('Location: login.php');
+        exit;
+    }
     require 'functions.php';
     
     if(isset($_POST['submit'])){
