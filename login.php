@@ -53,6 +53,11 @@ if(isset($_POST['login'])){
                                 <div class="form-outline mb-4">
                                     <input type="password" name="password" class="form-control" placeholder="Password" required>
                                 </div>
+                                <!-- remember me checkbox -->
+                                <div class="form-check d-flex justify-content-start mb-4">
+                                    <input type="checkbox" name="remember" class="form-check-input border-3">
+                                    <label for="remember" class="form-check-label ms-2">Remember Me</label>
+                                </div>
                                 <button type="submit" class="btn btn-primary w-100" name="login">Login</button>
                                 <div class="mt-3">
                                     <?php if(isset($error)) : ?>
